@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    master:
+        image: custom
+        build: .
+        stdin_open: true
+        tty: true
+
+    slave1:
+        image: custom
+        build: .
+        stdin_open: true
+        tty: true
+
+    slave2:
+        image: custom
+        build: .
+        stdin_open: true
+        tty: true
